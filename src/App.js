@@ -53,14 +53,6 @@ class App extends Component {
       headers: newHeaders})
         .then(response => response.json())
         .then(this.getPizzas())
-/* will return
-{
-“userId”: 1,
-“id”: 1,
-“title”: “delectus aut autem”,
-“completed”: true
-}
-*/
   }
 
   getPizzas = () => {
